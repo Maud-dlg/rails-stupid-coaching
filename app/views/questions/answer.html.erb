@@ -1,4 +1,9 @@
-<h1>Here is you answer:</h1>
-<%= @answer %>
+<h1>Here is you answer page</h1>
+
+<h5><%= params[:answer] %><h5>
+<h5><em> -You<em></h5>
+
+<h5><%= @answer %><h5>
+<h5><em> -You coach<em></h5>
 
 <p> <%= link_to 'Ask', ask_path, class: 'btn btn-primary', id: 'about' %></p>
